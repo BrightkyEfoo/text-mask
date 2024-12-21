@@ -1,0 +1,44 @@
+.container {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mask {
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  mask-image: url('../public/mask.svg');
+  background-color: blue;
+  mask-repeat: no-repeat;
+  mask-position: 50%;
+
+}
+
+
+
+.body {
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: greenyellow;
+}
+
+.body p,
+.mask p {
+  width: 65vw;
+}
+
